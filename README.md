@@ -14,5 +14,6 @@ CREATE TABLE aje_db
   que TEXT NOT NULL,
   answer TEXT NOT NULL
 ) ENGINE=INNODB;
+
 DESCRIBE aje_db;
 ```
