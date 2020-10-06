@@ -1,12 +1,13 @@
-﻿Imports System.Web.Mvc
+Imports System.Web.Mvc
 
 Namespace Controllers
     Public Class AjeController
         Inherits Controller
 
-        ' GET: Aje
         Function Index() As ActionResult
             Dim data As String = String.Empty
+            Dim question As String = "아재 개그 테스트 문제"
+            Dim answer As String = "아재 개그 테스트 정답"
 
             Select Case RouteData.Values("type")
                 Case "json"
@@ -15,9 +16,8 @@ Namespace Controllers
                     Dim jse As Script.Serialization.JavaScriptSerializer = New Script.Serialization.JavaScriptSerializer
                     Dim jsonoutput = jse.Serialize(New With
                     {
-                        .status = "ok",
-                        .que = "아재 개그 테스트 문제",
-                        .answer = "아재 개그 테스트 정답"
+                        .que = question,
+                        .answer = answer
                     })
 
                     data = jsonoutput
@@ -29,22 +29,18 @@ Namespace Controllers
                     Dim rootElement As System.Xml.XmlElement = xmlDoc.CreateElement("root")
                     xmlDoc.AppendChild(rootElement)
 
-                    Dim statusElement As System.Xml.XmlElement = xmlDoc.CreateElement("status")
-                    statusElement.InnerText = "ok"
-                    rootElement.AppendChild(statusElement)
-
                     Dim queElement As System.Xml.XmlElement = xmlDoc.CreateElement("que")
-                    queElement.InnerText = "아재 개그 테스트 문제"
+                    queElement.InnerText = question
                     rootElement.AppendChild(queElement)
 
                     Dim answerElement As System.Xml.XmlElement = xmlDoc.CreateElement("answer")
-                    answerElement.InnerText = "아재 개그 테스트 정답"
+                    answerElement.InnerText = answer
                     rootElement.AppendChild(answerElement)
 
                     data = xmlDoc.OuterXml
                 Case "plain"
                     Response.ContentType = "text/plain"
-                    data = "아재 개그 테스트 문제/아재 개그 테스트 정답"
+                    data = $"{question}/{answer}"
                 Case Else
                     Return HttpNotFound()
             End Select
