@@ -17,3 +17,7 @@ CREATE TABLE aje_db
 
 DESCRIBE aje_db;
 ```
+
+```
+insert into aje_db (que, answer) values('문제 이름', '문제 ');
+```
