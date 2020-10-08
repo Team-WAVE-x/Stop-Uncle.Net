@@ -19,7 +19,6 @@ CREATE TABLE aje_db
   answer TEXT NOT NULL
 ) ENGINE=INNODB;
 
-
 #아재 개그 문제 데이터베이스
 INSERT into aje_db (que, answer) VALUES('나무를 톱으로 캐면?', '트리케라톱스');
 INSERT into aje_db (que, answer) VALUES('이광수가 스파에 들어가면?', '스파게리');
