@@ -14,10 +14,8 @@ CREATE TABLE aje_db
   que TEXT NOT NULL,
   answer TEXT NOT NULL
 ) ENGINE=INNODB;
-
-DESCRIBE aje_db;
 ```
 
 ```
-insert into aje_db (que, answer) values('문제 이름', '문제');
+INSERT INTO aje_db (que, answer) VALUES('문제 이름', '문제');
 ```
