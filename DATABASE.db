@@ -1,0 +1,131 @@
+/*
+
+ =========================================================
+ * Stop-Uncle.Net
+ =========================================================
+
+ * License: MIT
+ * Copyright 2020 TeamWV (https://teamwv.ml)
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
+
+#테이블 구조
+CREATE TABLE aje_db
+( 
+  _id INT PRIMARY KEY AUTO_INCREMENT,
+  que TEXT NOT NULL,
+  answer TEXT NOT NULL
+) ENGINE=INNODB;
+
+
+#아재 개그 문제 데이터베이스
+INSERT into aje_db (que, answer) VALUES('나무를 톱으로 캐면?', '트리케라톱스');
+INSERT into aje_db (que, answer) VALUES('이광수가 스파에 들어가면?', '스파게리');
+INSERT into aje_db (que, answer) VALUES('우유가 넘어지면?', '아야');
+INSERT into aje_db (que, answer) VALUES('세발낙지가 탈모에 걸리면?', '한발낙지');
+INSERT into aje_db (que, answer) VALUES('토끼가 강한 이유는?', '깡과 총이 있어서');
+INSERT into aje_db (que, answer) VALUES('스님이 택시를 타고 하는 말은?', '절로가');
+INSERT into aje_db (que, answer) VALUES('마블보다 4배 큰 기업은?', '넷마블');
+INSERT into aje_db (que, answer) VALUES('오리가 옳다고 인정하면?', '덕수긍');
+INSERT into aje_db (que, answer) VALUES('친일파 동물을 부르는 말은?', '애완용');
+INSERT into aje_db (que, answer) VALUES('개들이 가장 싫어하는 절은?', '보신각');
+INSERT into aje_db (que, answer) VALUES('노인과 바다를 3글자로 부르는 말은?', 'Sea에 틀');
+INSERT into aje_db (que, answer) VALUES('언론통제를 다른 말로 하면?', '보도블럭');
+INSERT into aje_db (que, answer) VALUES('만수르가 입원한 이유는?', '부 상당해서');
+INSERT into aje_db (que, answer) VALUES('F가 애매한 이유는?', 'F = ma 이니까');
+INSERT into aje_db (que, answer) VALUES('옷감을 울게 하는 만드는 것은?', '섬유유(ㅠㅠ)연제');
+INSERT into aje_db (que, answer) VALUES('등 처먹고 사는 사람은?', '안마사');
+INSERT into aje_db (que, answer) VALUES('부처가 먹는 음식은?', '전 부처 먹음');
+INSERT into aje_db (que, answer) VALUES('애플이 망해가는 이유는?', 'Mac(막) 만들어서');
+INSERT into aje_db (que, answer) VALUES('글씨를 피카츄로 지워도 되는 이유는?', '지우 개니까');
+INSERT into aje_db (que, answer) VALUES('지니가 노란색이 되면?', '황지니');
+INSERT into aje_db (que, answer) VALUES('인도는 지금 몇 시일까?', '인도네시아');
+INSERT into aje_db (que, answer) VALUES('물고기를 가장 잘 낚는 일본인은?', '다나까');
+INSERT into aje_db (que, answer) VALUES('과소비가 심한 동물은?', '사자');
+INSERT into aje_db (que, answer) VALUES('슈퍼맨이 어렸을 때를 뭐라고 할까?', '슈퍼주니어');
+INSERT into aje_db (que, answer) VALUES('가장 강한 세균은?', '대장균');
+INSERT into aje_db (que, answer) VALUES('곰은 사과를 어떻게 먹을까?', '베어(Bear)먹음');
+INSERT into aje_db (que, answer) VALUES('시간이 갈수록 환해지는 것은?', '흰머리');
+INSERT into aje_db (que, answer) VALUES('학생들이 가장 싫어하는 피자는?', '책 피자');
+INSERT into aje_db (que, answer) VALUES('세상에서 가장 믿을 만한 오리는?', '미더덕');
+INSERT into aje_db (que, answer) VALUES('"비가 내일 비행기로 LA에 간다"를 4글자로?', 'LA갈비');
+INSERT into aje_db (que, answer) VALUES('도둑이 도둑질하러 가는 걸음걸이를 4글자로?', '털레털레');
+INSERT into aje_db (que, answer) VALUES('소가 웃는 소리를 3글자로?', '우하하');
+INSERT into aje_db (que, answer) VALUES('왕이 넘어지면?', '킹콩');
+INSERT into aje_db (que, answer) VALUES('칼로 산 두개를 자르면?', '두산베어스');
+INSERT into aje_db (que, answer) VALUES('낙엽이 애교를 부리면서 하는 말은?', '나기엽?');
+INSERT into aje_db (que, answer) VALUES('모내기 기계가 고장이 나면?', '심기 불편');
+INSERT into aje_db (que, answer) VALUES('옳지 못한 오리는? 부도덕', '킹콩');
+INSERT into aje_db (que, answer) VALUES('돼지고기가 금값인 이유는?', '돼지가 한 돈 가격 이라서');
+INSERT into aje_db (que, answer) VALUES('비실이를 총으로 쏘면?', '탕비실');
+INSERT into aje_db (que, answer) VALUES('탱글탱글한 피부를 만드는데 걸리는 시간은?', '수 분');
+INSERT into aje_db (que, answer) VALUES('뼈가 있는 방은?', '골룸');
+INSERT into aje_db (que, answer) VALUES('세계에서 가장 추운 바다는?', '썰렁해');
+INSERT into aje_db (que, answer) VALUES('세계에서 가장 뜨거운 바다는?', '열바다');
+INSERT into aje_db (que, answer) VALUES('늘 무엇인가를 찾고 있는 스님은?', '탐색중');
+INSERT into aje_db (que, answer) VALUES('네일 아티스트들이 일찍 죽는 이유는?', '오늘 네일 해서');
+INSERT into aje_db (que, answer) VALUES('갓 출가하여 열심히 수도생활하는 스님은?', '노력중');
+INSERT into aje_db (que, answer) VALUES('나무를 주면 살고, 물을 주면 죽지 말라고 해도 죽는 것은?', '장작불');
+INSERT into aje_db (que, answer) VALUES('가장 어렵게 지은 절은?', '우여곡절');
+INSERT into aje_db (que, answer) VALUES('가난하지만 부자인 사람은?', '아버지와 아들');
+INSERT into aje_db (que, answer) VALUES('로또복권 당첨 확률을 2배 올리는 방법은?', '두 장 산다.');
+INSERT into aje_db (que, answer) VALUES('먹고살기 위해 찾는 책은?', '호구지책');
+INSERT into aje_db (que, answer) VALUES('비가 올 때 하는 욕은?', 'byc');
+INSERT into aje_db (que, answer) VALUES('바닷가에서는 해도 되는 욕은?', '해수욕');
+INSERT into aje_db (que, answer) VALUES('머리에 총을 맞아도 살 수 있는 방법은?', '총알을 피한다.');
+INSERT into aje_db (que, answer) VALUES('어떤 내기에도 져본 적이 없는 과학자는?', '다윈');
+INSERT into aje_db (que, answer) VALUES('있을 수도 있고 없을 수도 있는 섬은?', '아마도');
+INSERT into aje_db (que, answer) VALUES('세계에서 몸집에 제일 큰 여자의 이름은?', '태평양');
+INSERT into aje_db (que, answer) VALUES('이 세상에 태어나 단 한 번만 먹고 입을 다물어 버리는 것은?', '편지봉투');
+INSERT into aje_db (que, answer) VALUES('슬픈 음악을 좋아하는 사람이 즐거울 때는 언제일까요?', '슬픈 음악을 들을 때');
+INSERT into aje_db (que, answer) VALUES('아무리 예뻐도 미녀라고 불리지 못하는 사람은?', '미남');
+INSERT into aje_db (que, answer) VALUES('암탉은 어느 집에서 시집왔을까?', '꼬꼬댁');
+INSERT into aje_db (que, answer) VALUES('화장실에 가면 소변과 대변 중 어느 것이 먼저 나올까?', '급한 것');
+INSERT into aje_db (que, answer) VALUES('전주비빔밥보다 더 싱싱한 것은?', '이번주비빔밥');
+INSERT into aje_db (que, answer) VALUES('흑인들은 검정색을 무엇이라고 할까?', '살색');
+INSERT into aje_db (que, answer) VALUES('호랑이는 영어로 Tiger이다. 이 빠진 호랑이는?', 'Tigr');
+INSERT into aje_db (que, answer) VALUES('홀로그램', '㎏ ㎏ ㎏ ㎏ g ㎏ ㎏ ㎏');
+INSERT into aje_db (que, answer) VALUES('야! 필리핀 갈 때 돈 많이 가져가지 마!', '동남아');
+INSERT into aje_db (que, answer) VALUES('컴퓨터가 고장 났을 때 읊는 시는?', '오륜가');
+INSERT into aje_db (que, answer) VALUES('북한에 민주주의가 오겠어요?', '아오지요');
+INSERT into aje_db (que, answer) VALUES('꽃이 병원에 가는 이유는?', '수술이 있어서');
+INSERT into aje_db (que, answer) VALUES('큰 북 안에 작은북과 병아리를 넣으면 나는 소리는?', '쿵따라닥닥삐약삐약');
+INSERT into aje_db (que, answer) VALUES('유부남이 제일 무서워하는 치킨은?', '마늘치킨');
+INSERT into aje_db (que, answer) VALUES('파가 웃으면?', '파우치');
+INSERT into aje_db (que, answer) VALUES('미용실에서 머리를 했는데 비싸게 받으면?', '바가지 머리');
+INSERT into aje_db (que, answer) VALUES('아버지가 재혼을 세 번 했으면?', '엠넷');
+INSERT into aje_db (que, answer) VALUES('막대기가 넘어지면?', '어쿠스틱');
+INSERT into aje_db (que, answer) VALUES('수상함과 잠수함의 통신 내용은?', '너수상함, 나잠수함');
+INSERT into aje_db (que, answer) VALUES('대전에서 응급상황이 발생하면?', '이"머전"씨');
+INSERT into aje_db (que, answer) VALUES('발렌타인데이에 자기가 직접 초콜릿 사면?', '발렌본인데이');
+INSERT into aje_db (que, answer) VALUES('자기가 돌체의 자식이란 걸 깨달은 입양아가 한 말은?', '돌체 앤 가봐 나');
+INSERT into aje_db (que, answer) VALUES('국회의원을 3글자로?', '9K1');
+INSERT into aje_db (que, answer) VALUES('공이 너무 많아서 남아도는 나라는?', '남아공');
+INSERT into aje_db (que, answer) VALUES('인도주의와 반대되는 사상은?', '파키스탄주의');
+INSERT into aje_db (que, answer) VALUES('꽃들의 전쟁은?', '플라워');
+INSERT into aje_db (que, answer) VALUES('갑자기 난 이빨은?', '써든니');
+INSERT into aje_db (que, answer) VALUES('정부에서 뭐만 했다 하면 국민들이 나서서 반대하는 나라는?', '불가리아');
+INSERT into aje_db (que, answer) VALUES('식빵과 잼이 싸우면?', '잼이 발린다');
+INSERT into aje_db (que, answer) VALUES('김태희가 드라이브를 하다가 동생 이완을 만나고 나서 한 말은?', '타이완');
+INSERT into aje_db (que, answer) VALUES('아들이 방에서 보노보노를 보고 있었다. 그걸 본 엄마가 하는 말은?', '보노보노보노?');
+INSERT into aje_db (que, answer) VALUES('포테이토칩의 마음은?', '농심');
+INSERT into aje_db (que, answer) VALUES('미친 쥐를 4글자로?', '광마우스');
+INSERT into aje_db (que, answer) VALUES('배고플 때 쏘는 파는?', '배고파');
+INSERT into aje_db (que, answer) VALUES('반지의 제왕을 둘로 나누면?', '제왕절개');
+INSERT into aje_db (que, answer) VALUES('브라질 사람들이 먹는 아이스크림은?', '쌈바');
+INSERT into aje_db (que, answer) VALUES('추울 때 따뜻하게 해주는 아이스크림은?', '잠바');
+INSERT into aje_db (que, answer) VALUES('산토끼의 반대말은?', '죽은토끼');
+INSERT into aje_db (que, answer) VALUES('남자가 제일 좋아하는 집은?', '계집');
+INSERT into aje_db (que, answer) VALUES('4마리의 고양이 괴물은?', '포켓몬스터');
+INSERT into aje_db (que, answer) VALUES('목에 글씨를 적으면?', '목적어');
+INSERT into aje_db (que, answer) VALUES('축구공이 굴러갈 때 사람들의 반응은?', '공감');
+INSERT into aje_db (que, answer) VALUES('김수미가 유독 고소고발을 많이 당하는 이유는?', 'Sue me');
+INSERT into aje_db (que, answer) VALUES('고구려에 야근수당이 없던 이유는?', '고구려는 약은 수, 당을 싫어했기 때문');
+INSERT into aje_db (que, answer) VALUES('망고의 옛날 이름은?', 'manwent');
+INSERT into aje_db (que, answer) VALUES('소를 수출할 때 꼭 필요한 것은?', '소비자');
+INSERT into aje_db (que, answer) VALUES('부처님이 일어서면서 하는 말은?', '선불입니다');
+INSERT into aje_db (que, answer) VALUES('학력이 떨어지는 스님을 2글자로?', '중졸');
