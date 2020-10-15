@@ -532,7 +532,7 @@ INSERT into aje_db (que, answer) VALUES('만두 장수가 가장 싫어하는 �
 INSERT into aje_db (que, answer) VALUES('가장 엄숙하지 않은 절은?', '안절부절');
 INSERT into aje_db (que, answer) VALUES('신혼부부가 좋아하는 곤충은?', '잠자리');
 INSERT into aje_db (que, answer) VALUES('곰운 사과를 어떻게 먹을까?', '베어먹는다');
-INSERT into aje_db (que, answer) VALUES('담배가없 는데 라이터만 있는 사람을 무엇이라고 하나?', '불만있는사람');
+INSERT into aje_db (que, answer) VALUES('담배가 없는데 라이터만 있는 사람을 무엇이라고 하나?', '불만있는사람');
 INSERT into aje_db (que, answer) VALUES('고추잠자리를 2글자로 줄이면?', '팬티');
 INSERT into aje_db (que, answer) VALUES('삶은?', '달걀');
 INSERT into aje_db (que, answer) VALUES('뚱뚱한 사람들이 모여있는 동네는?', '개포동');
