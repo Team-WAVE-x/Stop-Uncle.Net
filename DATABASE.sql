@@ -78,7 +78,6 @@ INSERT into aje_db (que, answer) VALUES('어떤 내기에도 져본 적이 없�
 INSERT into aje_db (que, answer) VALUES('있을 수도 있고 없을 수도 있는 섬은?', '아마도');
 INSERT into aje_db (que, answer) VALUES('세계에서 몸집에 제일 큰 여자의 이름은?', '태평양');
 INSERT into aje_db (que, answer) VALUES('이 세상에 태어나 단 한 번만 먹고 입을 다물어 버리는 것은?', '편지봉투');
-INSERT into aje_db (que, answer) VALUES('슬픈 음악을 좋아하는 사람이 즐거울 때는 언제일까요?', '슬픈 음악을 들을 때');
 INSERT into aje_db (que, answer) VALUES('아무리 예뻐도 미녀라고 불리지 못하는 사람은?', '미남');
 INSERT into aje_db (que, answer) VALUES('암탉은 어느 집에서 시집왔을까?', '꼬꼬댁');
 INSERT into aje_db (que, answer) VALUES('화장실에 가면 소변과 대변 중 어느 것이 먼저 나올까?', '급한 것');
