@@ -286,7 +286,6 @@ INSERT into aje_db (que, answer) VALUES('병신들만 사는 나라는?', '네�
 INSERT into aje_db (que, answer) VALUES('송해가 샤워하면?', '뽀송해');
 INSERT into aje_db (que, answer) VALUES('세상에서 가장 빠른 닭은?', '후다닥');
 INSERT into aje_db (que, answer) VALUES('쥐가 네마리 모이면 무엇이 될까?', '쥐포');
-INSERT into aje_db (que, answer) VALUES('여자는 무드에 약하다. 그럼 남자는 무엇에 약할까?', '누드');
 INSERT into aje_db (que, answer) VALUES('오른손으로는 들어도 왼손으로는 들지 못하는 것은?', '왼손');
 INSERT into aje_db (que, answer) VALUES('가장 뜨거운 전화는?', '화상전화');
 INSERT into aje_db (que, answer) VALUES('포도가 자기소개 하면?', '포도당');
