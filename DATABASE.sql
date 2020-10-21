@@ -52,11 +52,10 @@ INSERT into aje_db (que, answer) VALUES('세상에서 가장 믿을 만한 오�
 INSERT into aje_db (que, answer) VALUES('"비가 내일 비행기로 LA에 간다"를 4글자로?', 'LA갈비');
 INSERT into aje_db (que, answer) VALUES('도둑이 도둑질하러 가는 걸음걸이를 4글자로?', '털레털레');
 INSERT into aje_db (que, answer) VALUES('소가 웃는 소리를 3글자로?', '우하하');
-INSERT into aje_db (que, answer) VALUES('왕이 넘어지면?', '킹콩');
 INSERT into aje_db (que, answer) VALUES('칼로 산 두개를 자르면?', '두산베어스');
 INSERT into aje_db (que, answer) VALUES('낙엽이 애교를 부리면서 하는 말은?', '나기엽?');
 INSERT into aje_db (que, answer) VALUES('모내기 기계가 고장이 나면?', '심기 불편');
-INSERT into aje_db (que, answer) VALUES('옳지 못한 오리는?', '킹콩');
+INSERT into aje_db (que, answer) VALUES('옳지 못한 오리는?', '');
 INSERT into aje_db (que, answer) VALUES('돼지고기가 금값인 이유는?', '돼지가 한 돈 가격 이라서');
 INSERT into aje_db (que, answer) VALUES('비실이를 총으로 쏘면?', '탕비실');
 INSERT into aje_db (que, answer) VALUES('탱글탱글한 피부를 만드는데 걸리는 시간은?', '수 분');
@@ -180,7 +179,6 @@ INSERT into aje_db (que, answer) VALUES('땅중에서 가장 멋있는 땅은?',
 INSERT into aje_db (que, answer) VALUES('냉전의 반댓말은?', '더워');
 INSERT into aje_db (que, answer) VALUES('러시아 사람이 점프하면?', '스키점프');
 INSERT into aje_db (que, answer) VALUES('모든 사람이 물건을 사기만 했던 나라는?', '소비에트');
-INSERT into aje_db (que, answer) VALUES('왕이 넘어지면?', '킹콩');
 INSERT into aje_db (que, answer) VALUES('공이 웃으면?', '풋볼');
 INSERT into aje_db (que, answer) VALUES('숲속에서 자라는 것 중 가장 야한 것은?', '버섯');
 INSERT into aje_db (que, answer) VALUES('자동차가 울면?', '잉카');
