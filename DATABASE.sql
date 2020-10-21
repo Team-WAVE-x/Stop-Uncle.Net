@@ -56,7 +56,7 @@ INSERT into aje_db (que, answer) VALUES('왕이 넘어지면?', '킹콩');
 INSERT into aje_db (que, answer) VALUES('칼로 산 두개를 자르면?', '두산베어스');
 INSERT into aje_db (que, answer) VALUES('낙엽이 애교를 부리면서 하는 말은?', '나기엽?');
 INSERT into aje_db (que, answer) VALUES('모내기 기계가 고장이 나면?', '심기 불편');
-INSERT into aje_db (que, answer) VALUES('옳지 못한 오리는? 부도덕', '킹콩');
+INSERT into aje_db (que, answer) VALUES('옳지 못한 오리는?', '킹콩');
 INSERT into aje_db (que, answer) VALUES('돼지고기가 금값인 이유는?', '돼지가 한 돈 가격 이라서');
 INSERT into aje_db (que, answer) VALUES('비실이를 총으로 쏘면?', '탕비실');
 INSERT into aje_db (que, answer) VALUES('탱글탱글한 피부를 만드는데 걸리는 시간은?', '수 분');
